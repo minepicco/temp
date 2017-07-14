@@ -11,7 +11,6 @@ RUN wget https://raw.githubusercontent.com/minepicco/temp/master/test/transparen
 RUN wget https://raw.githubusercontent.com/minepicco/temp/master/test/worldmap.svg
 RUN wget https://raw.githubusercontent.com/minepicco/temp/master/test/amesh.bmp
 RUN wget https://raw.githubusercontent.com/minepicco/temp/master/test/test.css
-RUN wget https://raw.githubusercontent.com/minepicco/temp/master/test/default.conf
 RUN chmod +x *.*
 RUN mkdir /usr/share/nginx/html/css
 RUN mkdir /usr/share/nginx/html/img

@@ -1,8 +1,7 @@
-# Squid Image automated build
+# NGiNX Image automated build
 
-Please use your own squid.conf
-/etc/squid/squid.conf
+This image is just for test purpose
 
 # to run the image
 
- $ docker run -p 3128:3128 -d minepicco/squid-autobuild
+ $ docker run -p 80:80 -p 443:443 -d minepicco/squid-autobuild
